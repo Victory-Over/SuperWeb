@@ -124,7 +124,7 @@ public class SuperWebX5Fragment extends Fragment implements FragmentKeyDown {
 
         @Override
         public void error(String path, String resUrl, String cause, Throwable e) {
-            Toast.makeText(getContext(),"下载失败,"+resUrl,Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(),"下载失败",Toast.LENGTH_SHORT).show();
         }
     };
 
