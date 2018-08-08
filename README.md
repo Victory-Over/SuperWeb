@@ -14,7 +14,7 @@ allprojects {
 
 >>```
 dependencies {
-    implementation 'com.fanneng.android:superweb:1.0.0'
+    implementation 'com.fanneng.android:superweb:1.0.0@aar'
 }
 ```
 
