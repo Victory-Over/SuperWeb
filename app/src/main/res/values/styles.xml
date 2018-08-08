@@ -1,0 +1,30 @@
+<resources>
+
+
+    <style name="AppTheme" parent="BaseAppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BaseAppTheme" parent="AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarSize">48dp</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar" />
+
+
+
+    <style name="toolBar">
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="android:homeAsUpIndicator">@mipmap/cha</item>
+        <item name="android:titleTextStyle">@style/titlestyle</item>
+    </style>
+    <style name="titlestyle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>
