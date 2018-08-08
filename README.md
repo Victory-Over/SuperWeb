@@ -21,7 +21,7 @@ dependencies {
 #### 2、基本功能
 * 文件浏览（支持pdf/ppt/doc/excel/txt）
 
-![点我查看效果图](http://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/src/master/file_open.gif)
+![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/src/master/file_open.gif)
 
 * 文件上传（Android与JS通信）
 
