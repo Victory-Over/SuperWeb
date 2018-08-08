@@ -1,4 +1,6 @@
 ## FNSuperWeb 超级浏览器
+* 二维码扫一波看看效果
+![https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/src/b0c65b37cad705aa7b537bb54b5b9956a3282257/1533718400.png](http://)
 #### 1、添加依赖和配置
 * 根目录build.gradle文件添加如下配置：
 
