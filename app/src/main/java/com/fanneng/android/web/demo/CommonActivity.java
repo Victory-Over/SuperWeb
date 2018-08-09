@@ -59,7 +59,7 @@ public class CommonActivity extends AppCompatActivity {
 
 
                 ft.add(R.id.container_framelayout, mSuperWebX5Fragment = SuperWebX5Fragment.getInstance(mBundle = new Bundle()), SuperWebX5Fragment.class.getName());
-                mBundle.putString(SuperWebX5Fragment.URL_KEY, "http://android.myapp.com/");
+                mBundle.putString(SuperWebX5Fragment.URL_KEY, "http://sj.qq.com/myapp/");
                 break;
             default:
                 break;

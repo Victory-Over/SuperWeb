@@ -18,6 +18,22 @@ dependencies {
 }
 ```
 
+* 申请权限：
+
+>>```
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+```
+
+
+
 #### 2、基本功能
 * 文件浏览（支持pdf/ppt/doc/excel/txt）
 
@@ -25,11 +41,11 @@ dependencies {
 
 * 文件上传（Android与JS通信）
 
-![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/src/master/file_upload.gif)
+![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/file_upload.gif)
 
 * 文件下载
 
-![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/src/master/file_downloader.gif)
+![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/file_download.gif)
 
 * 未完待续。。。
 
