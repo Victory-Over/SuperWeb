@@ -1,4 +1,20 @@
 ## FNSuperWeb 超级浏览器
+
+#### 基于腾讯X5内核
+
+#### 目前已有功能：
+
+* 1、文件浏览（支持pdf/ppt/doc/excel/txt）
+* 2、文件上传（JS）
+* 3、文件下载
+
+#### 计划迭代功能：
+
+* 1、JS通信封装
+* 2、自定义进度条封装
+* 3、视频播放封装
+* 4、敬请期待。。。
+
 #### 1、添加依赖和配置
 * 根目录build.gradle文件添加如下配置：
 
@@ -47,6 +63,8 @@ dependencies {
 
 ![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/file_download.gif)
 
+* 未完待续。。。
+* 未完待续。。。
 * 未完待续。。。
 
 
