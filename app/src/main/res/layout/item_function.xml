@@ -8,5 +8,9 @@
     <Button
         android:id="@+id/bt_function"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/selector_drawable_for_btn"
+        android:textColor="@color/white" />
 </LinearLayout>

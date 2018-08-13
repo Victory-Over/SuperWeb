@@ -81,13 +81,13 @@ public class MainActivity extends AppCompatActivity {
 
         datas.add("文件浏览功能(pdf/ppt/doc/excel/txt)");
 
-        datas.add("文件上传(Android与JS通信)");
+        datas.add("文件上传(JS)");
 
         datas.add("文件下载功能");
 
-        datas.add("待续。。。");
+        datas.add("Android与JS交互");
 
-        datas.add("待续。。。");
+        datas.add("自定义交互(进度条、下拉回弹、ToolBar联动)");
 
         datas.add("待续。。。");
     }

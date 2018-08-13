@@ -17,15 +17,16 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.fanneng.android.web.IWebLayout;
+import com.fanneng.android.web.SuperWebX5;
 import com.fanneng.android.web.client.ChromeClientCallbackManager;
 import com.fanneng.android.web.client.DefaultWebClient;
-import com.fanneng.android.web.file.DownLoadResultListener;
 import com.fanneng.android.web.client.MiddleWareWebChromeBase;
 import com.fanneng.android.web.client.MiddleWareWebClientBase;
-import com.fanneng.android.web.utils.PermissionInterceptor;
-import com.fanneng.android.web.SuperWebX5;
 import com.fanneng.android.web.client.WebDefaultSettingsManager;
 import com.fanneng.android.web.client.WebSettings;
+import com.fanneng.android.web.file.DownLoadResultListener;
+import com.fanneng.android.web.utils.PermissionInterceptor;
 import com.tencent.smtt.export.external.interfaces.WebResourceError;
 import com.tencent.smtt.export.external.interfaces.WebResourceRequest;
 import com.tencent.smtt.sdk.WebChromeClient;
@@ -78,6 +79,7 @@ public class SuperWebX5Fragment extends Fragment implements FragmentKeyDown {
                 .setSuperWebParent((LinearLayout) view, new LinearLayout.LayoutParams(-1, -1))
                 .setIndicatorColorWithHeight(-1, 2)
                 .setWebSettings(getSettings())
+                .setWebLayout(getWebLayout())
                 .setWebViewClient(mWebViewClient)
                 .setWebChromeClient(mWebChromeClient)
                 .setReceivedTitleCallback(mCallback)
@@ -95,6 +97,8 @@ public class SuperWebX5Fragment extends Fragment implements FragmentKeyDown {
                 .go(getUrl());
 
         initView(view);
+
+//        mSuperWebX5.getWebCreator().get().setOverScrollMode(android.webkit.WebView.OVER_SCROLL_NEVER);
 
     }
 
@@ -256,6 +260,10 @@ public class SuperWebX5Fragment extends Fragment implements FragmentKeyDown {
 
         mBackImageView.setVisibility(tag);
         mLineView.setVisibility(tag);
+    }
+
+    protected IWebLayout getWebLayout() {
+        return new WebLayout(getActivity());
     }
 
     View.OnClickListener mOnClickListener = new View.OnClickListener() {

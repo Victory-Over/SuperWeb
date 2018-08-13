@@ -31,5 +31,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.lcodecorex:tkrefreshlayout:1.0.7'
     compile project(':superweb')
 }

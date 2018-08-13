@@ -122,7 +122,7 @@ public class DefaultWebCreator implements WebCreator {
     }
 
     @Override
-    public ViewGroup getGroup() {
+    public FrameLayout getWebParentLayout() {
         return mFrameLayout;
     }
 

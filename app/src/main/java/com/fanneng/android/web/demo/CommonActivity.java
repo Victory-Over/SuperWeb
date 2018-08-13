@@ -56,10 +56,18 @@ public class CommonActivity extends AppCompatActivity {
             //文件下载功能
             case 2:
                 checkNotification();
-
-
                 ft.add(R.id.container_framelayout, mSuperWebX5Fragment = SuperWebX5Fragment.getInstance(mBundle = new Bundle()), SuperWebX5Fragment.class.getName());
                 mBundle.putString(SuperWebX5Fragment.URL_KEY, "http://sj.qq.com/myapp/");
+                break;
+            //Android与JS交互
+            case 3:
+                ft.add(R.id.container_framelayout, mSuperWebX5Fragment = JsFragment.getInstance(mBundle = new Bundle()), SuperWebX5Fragment.class.getName());
+                mBundle.putString(SuperWebX5Fragment.URL_KEY, "file:///android_asset/js_interaction/hello.html");
+                break;
+            //自定义交互(进度条、下拉回弹、toolbar联动)
+            case 4:
+                ft.add(R.id.container_framelayout, mSuperWebX5Fragment = CustomWebFragment.getInstance(mBundle = new Bundle()), SuperWebX5Fragment.class.getName());
+                mBundle.putString(SuperWebX5Fragment.URL_KEY, "https://www.jd.com/chanpin/141117.html");
                 break;
             default:
                 break;
