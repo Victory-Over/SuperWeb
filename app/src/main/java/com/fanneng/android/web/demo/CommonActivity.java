@@ -12,6 +12,8 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 
+import com.fanneng.android.web.demo.interactive.SlidingFragment;
+
 /**
  * describe：公共加载fragment类
  *
@@ -64,10 +66,15 @@ public class CommonActivity extends AppCompatActivity {
                 ft.add(R.id.container_framelayout, mSuperWebX5Fragment = JsFragment.getInstance(mBundle = new Bundle()), SuperWebX5Fragment.class.getName());
                 mBundle.putString(SuperWebX5Fragment.URL_KEY, "file:///android_asset/js_interaction/hello.html");
                 break;
-            //自定义交互(进度条、下拉回弹、toolbar联动)
+            //自定义交互(进度条、下拉回弹)
             case 4:
-                ft.add(R.id.container_framelayout, mSuperWebX5Fragment = CustomWebFragment.getInstance(mBundle = new Bundle()), SuperWebX5Fragment.class.getName());
-                mBundle.putString(SuperWebX5Fragment.URL_KEY, "https://www.jd.com/chanpin/141117.html");
+                ft.add(R.id.container_framelayout, mSuperWebX5Fragment = SlidingFragment.getInstance(mBundle = new Bundle()), SlidingFragment.class.getName());
+                mBundle.putString(SuperWebX5Fragment.URL_KEY, "http://m.jd.com/");
+                break;
+            //视频播放
+            case 5:
+                VideoPlayActivity.show(CommonActivity.this,"http://baobab.kaiyanapp.com/api/v1/playUrl?vid=120943&resourceType=video&editionType=default&source=aliyun");
+                finish();
                 break;
             default:
                 break;

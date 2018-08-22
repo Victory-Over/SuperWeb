@@ -13,7 +13,12 @@ import android.widget.LinearLayout;
 
 import org.json.JSONObject;
 
-
+/**
+ * describe：公共加载fragment类
+ *
+ * @author ：鲁宇峰 on 2018/8/8 13：44
+ *         email：luyufengc@enn.cn
+ */
 public class JsFragment extends SuperWebX5Fragment {
 
     public static final JsFragment getInstance(Bundle bundle) {

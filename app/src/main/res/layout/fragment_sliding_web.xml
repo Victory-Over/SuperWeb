@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fanneng.android.web.demo.interactive.SlidingLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/slidingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:background_view="@layout/view_bg"
+    app:sliding_mode="top"
+    app:top_max="200dp">
+
+    <com.tencent.smtt.sdk.WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:overScrollMode="never"
+        android:visibility="visible" />
+</com.fanneng.android.web.demo.interactive.SlidingLayout>

@@ -26,6 +26,7 @@ import com.fanneng.android.web.client.MiddleWareWebClientBase;
 import com.fanneng.android.web.client.WebDefaultSettingsManager;
 import com.fanneng.android.web.client.WebSettings;
 import com.fanneng.android.web.file.DownLoadResultListener;
+import com.fanneng.android.web.progress.BaseIndicatorView;
 import com.fanneng.android.web.utils.PermissionInterceptor;
 import com.tencent.smtt.export.external.interfaces.WebResourceError;
 import com.tencent.smtt.export.external.interfaces.WebResourceRequest;
@@ -77,9 +78,9 @@ public class SuperWebX5Fragment extends Fragment implements FragmentKeyDown {
         super.onViewCreated(view, savedInstanceState);
         mSuperWebX5 = SuperWebX5.with(this)
                 .setSuperWebParent((LinearLayout) view, new LinearLayout.LayoutParams(-1, -1))
-                .setIndicatorColorWithHeight(-1, 2)
-                .setWebSettings(getSettings())
+                .setCustomIndicator(getIndicatorView())
                 .setWebLayout(getWebLayout())
+                .setWebSettings(getSettings())
                 .setWebViewClient(mWebViewClient)
                 .setWebChromeClient(mWebChromeClient)
                 .setReceivedTitleCallback(mCallback)
@@ -97,7 +98,6 @@ public class SuperWebX5Fragment extends Fragment implements FragmentKeyDown {
                 .go(getUrl());
 
         initView(view);
-
 //        mSuperWebX5.getWebCreator().get().setOverScrollMode(android.webkit.WebView.OVER_SCROLL_NEVER);
 
     }
@@ -263,7 +263,11 @@ public class SuperWebX5Fragment extends Fragment implements FragmentKeyDown {
     }
 
     protected IWebLayout getWebLayout() {
-        return new WebLayout(getActivity());
+        return null;
+    }
+
+    protected BaseIndicatorView getIndicatorView(){
+        return null;
     }
 
     View.OnClickListener mOnClickListener = new View.OnClickListener() {

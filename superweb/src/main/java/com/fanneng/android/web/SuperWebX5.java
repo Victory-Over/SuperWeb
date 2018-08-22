@@ -187,7 +187,7 @@ public class SuperWebX5 {
     private void doCompat() {
 
 
-        mJavaObjects.put("superWebX5", mSuperWebJsInterfaceCompat = new SuperWebJsInterfaceX5Compat(this, mActivity));
+        mJavaObjects.put("agentWebX5", mSuperWebJsInterfaceCompat = new SuperWebJsInterfaceX5Compat(this, mActivity));
 
         LogUtils.i("Info", "SuperWebX5Config.isUseSuperWebView:" + SuperWebX5Config.WEBVIEW_TYPE + "  mChromeClientCallbackManager:" + mChromeClientCallbackManager);
         if (SuperWebX5Config.WEBVIEW_TYPE == SuperWebX5Config.WEBVIEW_SUPERWEB_SAFE_TYPE) {
@@ -344,11 +344,11 @@ public class SuperWebX5 {
         DownloadListener mDownloadListener = this.mDownloadListener;
         if (mDownloadListener == null) {
             this.mDownloadListener = mDownloadListener = new DefaultDownLoaderImpl.Builder().setActivity(mActivity)
-                    .setEnableIndicator(true)
-                    .setForce(false)
-                    .setDownLoadResultListeners(downLoadResultListeners)
-                    .setDownLoadMsgConfig(mDefaultMsgConfig.getDownLoadMsgConfig())
-                    .setParallelDownload(isParallelDl)
+                    .setEnableIndicator(true)//
+                    .setForce(false)//
+                    .setDownLoadResultListeners(downLoadResultListeners)//
+                    .setDownLoadMsgConfig(mDefaultMsgConfig.getDownLoadMsgConfig())//
+                    .setParallelDownload(isParallelDl)//
                     .setPermissionInterceptor(this.mPermissionInterceptor)
                     .setIcon(icon)
                     .create();
@@ -603,8 +603,8 @@ public class SuperWebX5 {
         private SuperWebX5 mSuperWebX5;
         private boolean isReady = false;
 
-        PreSuperWeb(SuperWebX5 superWebX5) {
-            this.mSuperWebX5 = superWebX5;
+        PreSuperWeb(SuperWebX5 agentWebX5) {
+            this.mSuperWebX5 = agentWebX5;
         }
 
 

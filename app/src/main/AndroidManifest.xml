@@ -8,9 +8,14 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- 硬件加速对X5视频播放有利，建议开启 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -33,6 +38,25 @@
             android:theme="@style/AppTheme" />
         <activity android:name="com.fanneng.android.web.demo.FileListActivity" />
         <activity android:name="com.fanneng.android.web.demo.FileDisplayActivity" />
+        <activity
+            android:name="com.fanneng.android.web.demo.ToolbarActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name="com.fanneng.android.web.demo.VideoPlayActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+
+        <activity
+            android:name="com.tencent.smtt.sdk.VideoActivity"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.tencent.smtt.tbs.video.PLAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

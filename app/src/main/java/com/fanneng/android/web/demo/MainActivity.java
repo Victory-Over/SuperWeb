@@ -87,9 +87,9 @@ public class MainActivity extends AppCompatActivity {
 
         datas.add("Android与JS交互");
 
-        datas.add("自定义交互(进度条、下拉回弹、ToolBar联动)");
+        datas.add("自定义交互(进度条、下拉回弹)");
 
-        datas.add("待续。。。");
+        datas.add("视频播放");
     }
 
 }

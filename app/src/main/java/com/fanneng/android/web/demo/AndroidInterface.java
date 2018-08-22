@@ -9,7 +9,12 @@ import android.widget.Toast;
 
 import com.fanneng.android.web.SuperWebX5;
 
-
+/**
+ * describe：公共加载fragment类
+ *
+ * @author ：鲁宇峰 on 2018/8/8 13：44
+ *         email：luyufengc@enn.cn
+ */
 public class AndroidInterface {
 
 
