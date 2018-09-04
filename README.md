@@ -16,6 +16,7 @@
 * 根目录build.gradle文件添加如下配置：
 
 ` ``
+
 allprojects {
     repositories {
         maven { url "https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/superweb" }
@@ -34,7 +35,7 @@ dependencies {
 
 * 申请权限：
 
->>```
+` ``
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -44,7 +45,7 @@ dependencies {
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
-```
+` ``
 
 
 
