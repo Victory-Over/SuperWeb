@@ -15,21 +15,22 @@
 #### 1、添加依赖和配置
 * 根目录build.gradle文件添加如下配置：
 
->>```
+` ``
 allprojects {
     repositories {
         maven { url "https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/superweb" }
     }
 }
-```
+
+` ``
 
 * APP目录build.gradle文件添加如下配置：
 
->>```
+` ``
 dependencies {
     implementation 'com.fanneng.android:superweb:1.0.0@aar'
 }
-```
+` ``
 
 * 申请权限：
 
@@ -50,26 +51,26 @@ dependencies {
 #### 2、基本功能
 * 文件浏览（支持pdf/ppt/doc/excel/txt）
 
-![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/file_open.gif)
+![点我查看效果图](https://github.com/Victory-Over/SuperWeb/blob/master/file_open.gif)
 
 * 文件上传（Android与JS通信）
 
-![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/file_upload.gif)
+![点我查看效果图](https://github.com/Victory-Over/SuperWeb/blob/master/file_upload.gif)
 
 * 文件下载
 
-![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/file_download.gif)
+![点我查看效果图](https://github.com/Victory-Over/SuperWeb/blob/master/file_download.gif)
 
 * Android与JS交互
 
-![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/js.gif)
+![点我查看效果图](https://github.com/Victory-Over/SuperWeb/blob/master/js.gif)
 
 * 自定义交互(进度条、下拉回弹)
 
-![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/interactive.gif)
+![点我查看效果图](https://github.com/Victory-Over/SuperWeb/blob/master/interactive.gif)
 
 * 视频播放
-![点我查看效果图](https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/video.gif)
+![点我查看效果图](https://github.com/Victory-Over/SuperWeb/blob/master/video.gif)
 
 
 
