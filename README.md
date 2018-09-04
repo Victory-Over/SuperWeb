@@ -25,15 +25,15 @@ allprojects {
 
 * APP目录build.gradle文件添加如下配置：
 
-` ``Java
+```Java
 dependencies {
     implementation 'com.fanneng.android:superweb:1.0.0@aar'
 }
-` ``
+```
 
 * 申请权限：
 
-` ``Java
+```Java
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -43,7 +43,7 @@ dependencies {
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
-` ``
+```
 
 
 
@@ -69,6 +69,7 @@ dependencies {
 ![点我查看效果图](https://github.com/Victory-Over/SuperWeb/blob/master/interactive.gif)
 
 * 视频播放
+
 ![点我查看效果图](https://github.com/Victory-Over/SuperWeb/blob/master/video.gif)
 
 
