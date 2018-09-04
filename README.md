@@ -18,7 +18,7 @@
 ```Java
 allprojects {
     repositories {
-        maven { url "https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/superweb" }
+       	maven { url 'https://jitpack.io' }
     }
 }
 ```
@@ -27,7 +27,7 @@ allprojects {
 
 ```Java
 dependencies {
-    implementation 'com.fanneng.android:superweb:1.0.0@aar'
+     implementation 'com.github.Victory-Over:SuperWeb:v1.0.0
 }
 ```
 
