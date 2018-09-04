@@ -15,19 +15,17 @@
 #### 1、添加依赖和配置
 * 根目录build.gradle文件添加如下配置：
 
-` ``
-
+` ``Java
 allprojects {
     repositories {
         maven { url "https://source.enncloud.cn/FNAndroidTeam/FNSuperWeb/raw/master/superweb" }
     }
 }
-
 ` ``
 
 * APP目录build.gradle文件添加如下配置：
 
-` ``
+` ``Java
 dependencies {
     implementation 'com.fanneng.android:superweb:1.0.0@aar'
 }
@@ -35,7 +33,7 @@ dependencies {
 
 * 申请权限：
 
-` ``
+` ``Java
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
