@@ -72,7 +72,3 @@ dependencies {
 
 ![点我查看效果图](https://github.com/Victory-Over/SuperWeb/blob/master/video.gif)
 
-
-
-#### 3、 作者
-* 鲁宇峰   邮箱：466708987@qq.com
