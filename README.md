@@ -27,7 +27,7 @@ allprojects {
 
 ```Java
 dependencies {
-     implementation 'com.github.Victory-Over:SuperWeb:v1.0.0
+     implementation 'com.github.Victory-Over:SuperWeb:v1.0.2
 }
 ```
 
