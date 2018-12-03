@@ -1,4 +1,4 @@
-## FNSuperWeb 超级浏览器
+## SuperWeb 超级浏览器
 
 #### 基于腾讯X5内核
 
