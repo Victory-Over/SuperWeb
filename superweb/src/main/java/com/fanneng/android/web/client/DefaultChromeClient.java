@@ -9,11 +9,6 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.widget.EditText;
 
@@ -30,6 +25,7 @@ import com.fanneng.android.web.file.FileUploadPop;
 import com.fanneng.android.web.utils.PermissionInterceptor;
 import com.fanneng.android.web.utils.LogUtils;
 import com.fanneng.android.web.utils.SuperWebX5Utils;
+import com.google.android.material.snackbar.Snackbar;
 import com.tencent.smtt.export.external.interfaces.ConsoleMessage;
 import com.tencent.smtt.export.external.interfaces.GeolocationPermissionsCallback;
 import com.tencent.smtt.export.external.interfaces.JsPromptResult;
@@ -41,6 +37,11 @@ import com.tencent.smtt.sdk.WebView;
 
 import java.lang.ref.WeakReference;
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AlertDialog;
 
 import static com.fanneng.android.web.file.ActionActivity.KEY_FROM_INTENTION;
 

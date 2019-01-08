@@ -2,8 +2,6 @@ package com.fanneng.android.web.client;
 
 import android.app.Activity;
 import android.graphics.Color;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +16,9 @@ import com.fanneng.android.web.progress.BaseProgressSpec;
 import com.fanneng.android.web.utils.LogUtils;
 import com.fanneng.android.web.utils.SuperWebX5Utils;
 import com.tencent.smtt.sdk.WebView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 
 public class DefaultWebCreator implements WebCreator {

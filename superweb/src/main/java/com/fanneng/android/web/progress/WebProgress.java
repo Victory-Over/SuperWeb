@@ -7,7 +7,6 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
@@ -15,6 +14,8 @@ import android.widget.FrameLayout;
 
 import com.fanneng.android.web.utils.LogUtils;
 import com.fanneng.android.web.utils.SuperWebX5Utils;
+
+import androidx.annotation.Nullable;
 
 
 public class WebProgress extends BaseIndicatorView implements BaseProgressSpec {

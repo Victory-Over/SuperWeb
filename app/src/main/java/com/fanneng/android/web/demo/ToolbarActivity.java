@@ -3,10 +3,6 @@ package com.fanneng.android.web.demo;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
@@ -18,6 +14,11 @@ import com.fanneng.android.web.demo.interactive.CoolIndicatorLayout;
 import com.fanneng.android.web.demo.interactive.SlidingLayout;
 import com.fanneng.android.web.demo.interactive.WebLayout;
 import com.fanneng.android.web.progress.BaseIndicatorView;
+import com.google.android.material.appbar.AppBarLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 /**
  * describe：与Toolbar联动  需设置主题为AppTheme

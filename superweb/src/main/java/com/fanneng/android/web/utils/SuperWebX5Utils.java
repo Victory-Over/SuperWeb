@@ -18,12 +18,13 @@ import android.os.Looper;
 import android.os.StatFs;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
-import android.support.annotation.ColorInt;
-import android.support.design.widget.Snackbar;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.CursorLoader;
-import android.support.v4.content.FileProvider;
-import android.support.v4.os.EnvironmentCompat;
+
+import androidx.annotation.ColorInt;
+import androidx.core.content.ContextCompat;
+import androidx.core.content.FileProvider;
+import androidx.core.os.EnvironmentCompat;
+import androidx.loader.content.CursorLoader;
+
 import android.telephony.TelephonyManager;
 import android.text.SpannableString;
 import android.text.Spanned;
@@ -37,6 +38,7 @@ import android.widget.Toast;
 
 import com.fanneng.android.web.SuperWebX5Config;
 import com.fanneng.android.web.file.FileParcel;
+import com.google.android.material.snackbar.Snackbar;
 import com.tencent.smtt.sdk.WebView;
 
 import org.json.JSONArray;

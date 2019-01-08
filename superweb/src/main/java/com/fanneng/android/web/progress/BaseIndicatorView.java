@@ -1,9 +1,10 @@
 package com.fanneng.android.web.progress;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
+
+import androidx.annotation.Nullable;
 
 /**
  * 进度条基类

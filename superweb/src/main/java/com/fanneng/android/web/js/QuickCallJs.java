@@ -1,8 +1,9 @@
 package com.fanneng.android.web.js;
 
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.webkit.ValueCallback;
+
+import androidx.annotation.RequiresApi;
 
 public interface QuickCallJs {
     @RequiresApi(Build.VERSION_CODES.KITKAT)

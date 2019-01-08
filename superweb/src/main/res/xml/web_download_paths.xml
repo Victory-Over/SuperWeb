@@ -2,5 +2,6 @@
 <paths>
 
     <external-cache-path name="cache_download" path="download"/>
+    <external-cache-path name="cache_document" path="document"/>
     <external-path path="." name="web_download" />
 </paths>

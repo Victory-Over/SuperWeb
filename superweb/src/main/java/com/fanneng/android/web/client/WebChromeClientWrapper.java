@@ -4,7 +4,6 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Message;
-import android.support.annotation.RequiresApi;
 import android.util.Log;
 import android.view.View;
 
@@ -20,6 +19,8 @@ import com.tencent.smtt.sdk.WebStorage;
 import com.tencent.smtt.sdk.WebView;
 
 import java.lang.reflect.Method;
+
+import androidx.annotation.RequiresApi;
 
 public class WebChromeClientWrapper extends WebChromeClient {
     protected WebChromeClient mRealWebChromeClient;

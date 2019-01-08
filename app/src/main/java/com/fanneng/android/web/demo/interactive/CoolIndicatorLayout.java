@@ -3,7 +3,6 @@ package com.fanneng.android.web.demo.interactive;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -11,6 +10,8 @@ import android.widget.FrameLayout;
 import com.coolindicator.sdk.CoolIndicator;
 import com.fanneng.android.web.demo.R;
 import com.fanneng.android.web.progress.BaseIndicatorView;
+
+import androidx.annotation.Nullable;
 
 public class CoolIndicatorLayout extends BaseIndicatorView {
 

@@ -2,8 +2,6 @@ package com.fanneng.android.web.demo;
 
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +10,9 @@ import android.webkit.ValueCallback;
 import android.widget.LinearLayout;
 
 import org.json.JSONObject;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 /**
  * describe：公共加载fragment类

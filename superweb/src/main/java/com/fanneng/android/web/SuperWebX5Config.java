@@ -3,12 +3,13 @@ package com.fanneng.android.web;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Build;
-import android.support.annotation.Nullable;
 
 import com.fanneng.android.web.utils.LogUtils;
 import com.tencent.smtt.sdk.CookieManager;
 import com.tencent.smtt.sdk.CookieSyncManager;
 import com.tencent.smtt.sdk.ValueCallback;
+
+import androidx.annotation.Nullable;
 
 
 /**

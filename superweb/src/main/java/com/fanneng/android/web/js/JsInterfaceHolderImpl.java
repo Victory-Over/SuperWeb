@@ -1,6 +1,5 @@
 package com.fanneng.android.web.js;
 
-import android.support.v4.util.ArrayMap;
 import android.util.Log;
 
 import com.fanneng.android.web.SuperWebX5;
@@ -8,6 +7,8 @@ import com.tencent.smtt.sdk.WebView;
 
 import java.util.Map;
 import java.util.Set;
+
+import androidx.collection.ArrayMap;
 
 public class JsInterfaceHolderImpl extends JsBaseInterfaceHolder {
 

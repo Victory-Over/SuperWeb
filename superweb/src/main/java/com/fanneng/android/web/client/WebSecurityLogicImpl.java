@@ -2,11 +2,12 @@ package com.fanneng.android.web.client;
 
 import android.annotation.TargetApi;
 import android.os.Build;
-import android.support.v4.util.ArrayMap;
 
 import com.fanneng.android.web.SuperWebX5;
 import com.fanneng.android.web.SuperWebX5Config;
 import com.tencent.smtt.sdk.WebView;
+
+import androidx.collection.ArrayMap;
 
 
 public class WebSecurityLogicImpl implements WebSecurityCheckLogic {

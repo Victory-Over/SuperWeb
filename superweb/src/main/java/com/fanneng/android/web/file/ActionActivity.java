@@ -7,15 +7,16 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
 
 import com.fanneng.android.web.utils.LogUtils;
 import com.fanneng.android.web.utils.SuperWebX5Utils;
 
 import java.io.File;
 import java.util.Arrays;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 import static android.provider.MediaStore.EXTRA_OUTPUT;
 import static com.fanneng.android.web.file.ActionActivity.Action.ACTION_CAMERA;

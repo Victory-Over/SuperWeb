@@ -6,7 +6,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.os.SystemClock;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 
 public class Notify {
 
@@ -114,7 +114,8 @@ public class Notify {
 	}
 
 	public void setDelecte(PendingIntent intent) {
-		cBuilder.mNotification.deleteIntent = intent;
+//		cBuilder.mNotification.deleteIntent = intent;
+		cBuilder.build().deleteIntent = intent;
 	}
 
 	public void setProgressFinish(String content, PendingIntent pendingIntent) {

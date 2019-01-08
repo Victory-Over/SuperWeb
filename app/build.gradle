@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     defaultConfig {
         applicationId "com.fanneng.android.web.demo"
         multiDexEnabled true
-        minSdkVersion 15
-        targetSdkVersion 26
+        minSdkVersion 21
+        targetSdkVersion 28
         versionCode 2
         versionName "1.0.2"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -29,9 +29,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
-    compile 'com.android.support:appcompat-v7:26.1.0'
-    compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.coolindicator.sdk:coolindicator:1.0.0-beta'
-    compile project(':superweb')
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha3'
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha01'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.coolindicator.sdk:coolindicator:1.0.0-beta'
+    implementation project(':superweb')
 }

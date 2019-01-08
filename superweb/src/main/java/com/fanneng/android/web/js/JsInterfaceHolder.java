@@ -1,6 +1,7 @@
 package com.fanneng.android.web.js;
 
-import android.support.v4.util.ArrayMap;
+
+import androidx.collection.ArrayMap;
 
 public interface JsInterfaceHolder {
 

@@ -11,7 +11,6 @@ import android.content.pm.ResolveInfo;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 
@@ -32,6 +31,8 @@ import java.lang.ref.WeakReference;
 import java.lang.reflect.Constructor;
 import java.net.URISyntaxException;
 import java.util.List;
+
+import androidx.appcompat.app.AlertDialog;
 
 import static android.content.ContentValues.TAG;
 
